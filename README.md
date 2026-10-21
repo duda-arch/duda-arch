@@ -56,5 +56,9 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=duda-arch&theme=tokyo-night&hide_border=true&area=true" alt="Gráfico de atividade" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/duda-arch/duda-arch/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/duda-arch/duda-arch/output/github-snake.svg" />
+    <img alt="Gráfico de contribuições" src="https://raw.githubusercontent.com/duda-arch/duda-arch/output/github-snake-dark.svg" />
+  </picture>
 </p>
