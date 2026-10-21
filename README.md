@@ -1,4 +1,4 @@
-<h1 align="center">Olá, eu sou a André 👋</h1>
+<h1 align="center">Olá, eu sou André 👋</h1>
 
 <p align="center">
   <a href="https://github.com/duda-arch">
