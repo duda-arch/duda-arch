@@ -1,11 +1,3 @@
-<h1 align="center">Olá, eu sou André 👋</h1>
-
-<p align="center">
-  <a href="https://github.com/duda-arch">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=560&lines=IoT+%26+Telemetria+de+Energia;Automa%C3%A7%C3%A3o+e+Web+Scraping+com+Node.js;Do+hardware+ao+dashboard+%E2%9A%A1" alt="Typing SVG" />
-  </a>
-</p>
-
 ---
 
 ### ⚡ Sobre mim
