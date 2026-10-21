@@ -40,6 +40,22 @@
 
 ---
 
+### 🚀 Vitrine de projetos
+
+> A maior parte dos meus projetos é privada, mas aqui está um resumo do que já construí.
+
+| | Projeto | O que faz | Stack |
+|:-:|---|---|---|
+| 🧾 | **Gestão automática de faturas** | Robôs que entram nos portais das operadoras, baixam as faturas, leem os PDFs e organizam tudo num painel web com fila de tarefas, gráficos e login com Google | Node.js · Express · Puppeteer · PostgreSQL · Socket.io · Chart.js |
+| ⚡ | **Telemetria de energia** | Leitura de medidores de energia via RS485 e sonda óptica em Raspberry Pi, com API de gestão e painel para acompanhar os equipamentos em campo | Python · Raspberry Pi · RS485 · Node.js |
+| 📡 | **Firmware ESP32 + LoRa** | Firmware para ESP32-S3 com comunicação LoRa para coleta de dados em locais sem internet | C · C++ · PlatformIO |
+| 🔌 | **Controle remoto de USB serial** | Serviço que libera ou bloqueia o adaptador serial de uma Raspberry Pi a partir de uma API, com modo à prova de falhas quando fica sem internet | Python · systemd · Node.js |
+| 💬 | **Bots de WhatsApp** | Envio de mensagens e atendimento automático, tanto pelo WhatsApp Web quanto pela API oficial da Meta | Node.js · whatsapp-web.js · Python · Meta Cloud API |
+| 📱 | **App mobile Android e iOS** | App nativo com notificações push (equipamento offline, faturas vencendo, pagamento confirmado) e build automatizado na nuvem | Capacitor · Firebase · Codemagic |
+| ☁️ | **[Infra como código na Azure](https://github.com/duda-arch/terraform_azure)** | Provisionamento de infraestrutura na Azure com Terraform | Terraform · Azure |
+
+---
+
 ### 📊 Estatísticas
 
 <p align="center">
