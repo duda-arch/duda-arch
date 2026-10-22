@@ -47,18 +47,3 @@
 | ☁️ | **[Infra como código na Azure](https://github.com/duda-arch/terraform_azure)** | Provisionamento de infraestrutura na Azure com Terraform | Terraform · Azure |
 
 ---
-
-### 📊 Estatísticas
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=duda-arch&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&locale=pt-br" alt="Estatísticas do GitHub" />
-  <img height="165" src="https://streak-stats.demolab.com?user=duda-arch&theme=tokyonight&hide_border=true&locale=pt_BR" alt="Sequência de contribuições" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/duda-arch/duda-arch/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/duda-arch/duda-arch/output/github-snake.svg" />
-    <img alt="Gráfico de contribuições" src="https://raw.githubusercontent.com/duda-arch/duda-arch/output/github-snake-dark.svg" />
-  </picture>
-</p>
