@@ -2,10 +2,36 @@
 
 ### ⚡ Sobre mim
 
-- 🔌 Trabalho com **IoT e telemetria de energia**: leitura de medidores, comunicação RS485/óptica, ESP32 com LoRa e Raspberry Pi em campo
-- 🤖 Crio **automações e web scraping** com Node.js e Puppeteer, com painéis em tempo real (Express + Socket.io)
-- 💬 Desenvolvo **bots e integrações de WhatsApp** (WhatsApp Web e API oficial da Meta)
-- 📱 Faço apps mobile com **Capacitor + Firebase** e infraestrutura com **Terraform na Azure**
+Sou desenvolvedor full-stack com um pé no hardware. Construo sistemas de ponta a ponta, do medidor de energia ao painel web: firmware, protocolo, coleta, API, banco de dados, interface e deploy. Gosto de pegar um processo manual e transformar num sistema que roda sozinho, se monitora e avisa quando algo dá errado.
+
+#### 🔌 IoT e telemetria de energia
+- **Protocolos de medição**: ABNT NBR 14522 para comunicação óptica com multimedidores de energia e Modbus
+- **Meios físicos**: RS485, RS232, porta e cabo óptico, UART/TTL, entre outros
+- **LoRaWAN de ponta a ponta**: do firmware do dispositivo (OTAA/ABP) à infraestrutura, com broker MQTT, Network Server no ChirpStack e integração com a aplicação
+- **Firmware para ESP32-S3** em C/C++ com FreeRTOS: Ethernet W5500, Wi-Fi, display OLED e portal de configuração web embarcado
+- **Gateways em campo** com Raspberry Pi e Orange Pi, comandos remotos via MQTT e serviços que se recuperam sozinhos
+- Ferramentas de leitura em Python empacotadas como executáveis para Windows e Linux
+
+#### 🤖 Automação e web scraping em produção
+- Robôs com Puppeteer que acessam portais e baixam documentos, com pool de navegadores, fila persistida e retomada automática de tarefas
+- Parsers de PDF que transformam faturas em dados para o ERP, validados por testes de regressão em mais de 3.700 documentos reais
+- Integração com ERP pelo webservice e, onde não existe API, pela automação da própria tela
+
+#### 🔍 Engenharia reversa de APIs
+- Toolkit próprio que grava o tráfego HTTP e WebSocket de um site, mapeia as rotas e replica fluxos completos encadeando tokens, em JavaScript puro e sem dependências
+
+#### 🏗️ Back-end e operação
+- APIs e painéis em Node.js (Express, Socket.io) e Python (Flask), com PostgreSQL e migrações
+- Segurança desde o início: login com Google, permissões por usuário, CSRF, validação com Zod, cofre de segredos com AES-256-GCM e trilha de auditoria
+- Servidores Linux com nginx, systemd, PM2, backups, health checks e alertas automáticos por WhatsApp
+
+#### 📱 Mobile, integrações e nuvem
+- Apps Android e iOS com Capacitor, push pelo Firebase e build na nuvem pelo Codemagic
+- Bots de WhatsApp (WhatsApp Web e API oficial da Meta) e integração com Google Sheets
+- Infraestrutura como código na Azure com Terraform
+
+#### 🧠 Desenvolvimento com IA
+- Claude Code no dia a dia, com CLAUDE.md e skills próprias em cada projeto para documentar regras e acelerar a manutenção
 
 ---
 
@@ -26,7 +52,12 @@
 ![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![LoRa](https://img.shields.io/badge/LoRa-1F6FEB?style=for-the-badge&logo=semtech&logoColor=white)
+![LoRaWAN](https://img.shields.io/badge/LoRaWAN-1F6FEB?style=for-the-badge&logo=semtech&logoColor=white)
+![ChirpStack](https://img.shields.io/badge/ChirpStack-0B4F8A?style=for-the-badge&logo=lora&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
+![Modbus](https://img.shields.io/badge/Modbus-4A4A4A?style=for-the-badge&logoColor=white)
+![RS485](https://img.shields.io/badge/RS485_%7C_RS232-2E7D32?style=for-the-badge&logoColor=white)
+![ABNT 14522](https://img.shields.io/badge/ABNT_NBR_14522-009739?style=for-the-badge&logoColor=white)
 ![WhatsApp](https://img.shields.io/badge/WhatsApp_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
 ![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=capacitor&logoColor=white)
 
