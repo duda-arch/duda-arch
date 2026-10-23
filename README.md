@@ -24,7 +24,7 @@ Sou desenvolvedor full-stack com um pé no hardware. Crio automações de IoT pa
 | Carlo Gavazzi | EM330 |
 | Pextron | PCPT4 |
 | Dragino | WSS-03 (CO2, PM2.5 e PM10) |
-| Vini | Vini Modbus |
+ 
 
 #### 🤖 Automação de processos e web scraping
 - **Automação de tarefas manuais em sites**: transformo funções repetitivas que pessoas fazem em sistemas web (acessar portais, preencher formulários, baixar documentos, conferir e lançar dados) em robôs que rodam sozinhos
